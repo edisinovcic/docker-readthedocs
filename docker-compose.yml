@@ -33,7 +33,7 @@ services:
     build: ./readthedocs
     image: readthedocs
     ports:
-      - "80:80"
+      - "11000:80"
     depends_on:
       - database
       - elasticsearch
